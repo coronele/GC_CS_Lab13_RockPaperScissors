@@ -25,6 +25,7 @@ namespace GC_CS_Lab13_RockPaperScissors
         }
         public UserPlayer()
         {
+            // Default constructor, prompts for name when created
             Name = GetUserInput("Please enter your name:");
             Wins = 0;
         }

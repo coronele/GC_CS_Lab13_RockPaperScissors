@@ -9,11 +9,15 @@ namespace GC_CS_Lab13_RockPaperScissors
         static void Main(string[] args)
         {
             ShowTitle("Time to play Rock, Paper, Scissors!");
+            
+            // Create player child classes
             UserPlayer you = new UserPlayer();
             IThrowRock easyplayer = new IThrowRock();
             MuchBetterPlayer hardplayer = new MuchBetterPlayer();
 
-
+            SetOutputColor();
+            
+            // Select the opponent
             Console.WriteLine($"\n[1] Super easy\t[2] More difficult");
             int userDiff = UserChoice("Choose a difficulty level [1-2]", "That is not a valid choice", 2);
 
@@ -28,25 +32,9 @@ namespace GC_CS_Lab13_RockPaperScissors
             {
                 player.Add(hardplayer);
             }
+            
+            // Game played here
             PlayGame.RPS(player[0], player[1]);
-        }
-
-        static void TestAndDelete()
-        {
-            IThrowRock One = new IThrowRock();
-            MuchBetterPlayer Two = new MuchBetterPlayer();
-            UserPlayer Three = new UserPlayer();
-
-            List<Player> playerList = new List<Player>
-            {
-                One, Two, Three
-            };
-
-            foreach (Player p in playerList)
-            {
-                Console.WriteLine(p.Name);
-                Console.WriteLine(Conversions.RoCharToString(Conversions.RoToChar(p.GenerateRoshambo())));
-            }
         }
     }
 }

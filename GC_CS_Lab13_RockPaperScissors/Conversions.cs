@@ -8,6 +8,7 @@ namespace GC_CS_Lab13_RockPaperScissors
     {
         public static char RoToChar(Roshambo ro)
         {
+            // Converts Roshambo to a char
             switch (ro)
             {
                 case Roshambo.Rock:
@@ -23,6 +24,7 @@ namespace GC_CS_Lab13_RockPaperScissors
 
         public static string RoCharToString(char RoshamboChar)
         {
+            // Convert a game char to the specific game item string
             switch (RoshamboChar)
             {
                 case 'r':

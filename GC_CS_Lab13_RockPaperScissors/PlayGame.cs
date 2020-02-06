@@ -16,6 +16,7 @@ namespace GC_CS_Lab13_RockPaperScissors
             {
                 char yourThrow = Conversions.RoToChar(you.GenerateRoshambo());
                 char theirThrow = Conversions.RoToChar(them.GenerateRoshambo());
+                SetOutputColor();
                 if (yourThrow == 'r') // you throw rock
                 {
                     Console.WriteLine($"{you.Name} threw {Conversions.RoCharToString(yourThrow)}");
@@ -28,12 +29,14 @@ namespace GC_CS_Lab13_RockPaperScissors
                     else if (theirThrow == 'p') // they throw paper
                     {
                         Console.WriteLine($"{them.Name} threw {Conversions.RoCharToString(theirThrow)}");
+                        Console.WriteLine("Paper covers rock.");
                         Console.WriteLine($"{them.Name} wins!");
                         them.Wins++;
                     }
                     else // they throw scissors
                     {
                         Console.WriteLine($"{them.Name} threw {Conversions.RoCharToString(theirThrow)}");
+                        Console.WriteLine("Rock breaks scissors.");
                         Console.WriteLine($"{you.Name} wins!");
                         you.Wins++;
                     }
@@ -44,6 +47,7 @@ namespace GC_CS_Lab13_RockPaperScissors
                     if (theirThrow == 'r') // they throw rock
                     {
                         Console.WriteLine($"{them.Name} threw {Conversions.RoCharToString(theirThrow)}");
+                        Console.WriteLine("Paper covers rock.");
                         Console.WriteLine($"{you.Name} wins!");
                         you.Wins++;
                     }
@@ -56,6 +60,7 @@ namespace GC_CS_Lab13_RockPaperScissors
                     else // they throw scissors
                     {
                         Console.WriteLine($"{them.Name} threw {Conversions.RoCharToString(theirThrow)}");
+                        Console.WriteLine("Scissors cut paper.");
                         Console.WriteLine($"{them.Name} wins!");
                         them.Wins++;
                     }
@@ -67,12 +72,14 @@ namespace GC_CS_Lab13_RockPaperScissors
                     if (theirThrow == 'r') // they throw rock
                     {
                         Console.WriteLine($"{them.Name} threw {Conversions.RoCharToString(theirThrow)}");
+                        Console.WriteLine("Rock breaks scissors.");
                         Console.WriteLine($"{them.Name} wins!");
                         them.Wins++;
                     }
                     else if (theirThrow == 'p') // they throw paper
                     {
                         Console.WriteLine($"{them.Name} threw {Conversions.RoCharToString(theirThrow)}");
+                        Console.WriteLine("Scissors cut paper.");
                         Console.WriteLine($"{you.Name} wins!");
                         you.Wins++;
                     }

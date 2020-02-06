@@ -13,6 +13,7 @@ namespace GC_CS_Lab13_RockPaperScissors
 
         public IThrowRock()
         {
+            // Default constructor
             Name = "Goofus";
             Wins = 0;
         }

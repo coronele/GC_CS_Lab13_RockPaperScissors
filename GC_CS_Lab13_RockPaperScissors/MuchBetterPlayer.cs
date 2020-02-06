@@ -26,6 +26,7 @@ namespace GC_CS_Lab13_RockPaperScissors
 
         public MuchBetterPlayer()
         {
+            // Default constructor
             Name = "Gallant";
             Wins = 0;
         }
