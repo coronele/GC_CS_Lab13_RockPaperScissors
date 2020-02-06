@@ -11,5 +11,10 @@ namespace GC_CS_Lab13_RockPaperScissors
             return Roshambo.Rock;
         }
 
+        public IThrowRock()
+        {
+            Name = "Goofus";
+            Wins = 0;
+        }
     }
 }

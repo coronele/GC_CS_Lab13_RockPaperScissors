@@ -1,0 +1,11 @@
+C:\Users\coronele\source\repos\GC_CS_Lab13_RockPaperScissors\GC_CS_Lab13_RockPaperScissors\bin\Debug\netcoreapp3.1\GC_CS_Lab13_RockPaperScissors.exe
+C:\Users\coronele\source\repos\GC_CS_Lab13_RockPaperScissors\GC_CS_Lab13_RockPaperScissors\bin\Debug\netcoreapp3.1\GC_CS_Lab13_RockPaperScissors.deps.json
+C:\Users\coronele\source\repos\GC_CS_Lab13_RockPaperScissors\GC_CS_Lab13_RockPaperScissors\bin\Debug\netcoreapp3.1\GC_CS_Lab13_RockPaperScissors.runtimeconfig.json
+C:\Users\coronele\source\repos\GC_CS_Lab13_RockPaperScissors\GC_CS_Lab13_RockPaperScissors\bin\Debug\netcoreapp3.1\GC_CS_Lab13_RockPaperScissors.runtimeconfig.dev.json
+C:\Users\coronele\source\repos\GC_CS_Lab13_RockPaperScissors\GC_CS_Lab13_RockPaperScissors\bin\Debug\netcoreapp3.1\GC_CS_Lab13_RockPaperScissors.dll
+C:\Users\coronele\source\repos\GC_CS_Lab13_RockPaperScissors\GC_CS_Lab13_RockPaperScissors\bin\Debug\netcoreapp3.1\GC_CS_Lab13_RockPaperScissors.pdb
+C:\Users\coronele\source\repos\GC_CS_Lab13_RockPaperScissors\GC_CS_Lab13_RockPaperScissors\obj\Debug\netcoreapp3.1\GC_CS_Lab13_RockPaperScissors.csprojAssemblyReference.cache
+C:\Users\coronele\source\repos\GC_CS_Lab13_RockPaperScissors\GC_CS_Lab13_RockPaperScissors\obj\Debug\netcoreapp3.1\GC_CS_Lab13_RockPaperScissors.AssemblyInfoInputs.cache
+C:\Users\coronele\source\repos\GC_CS_Lab13_RockPaperScissors\GC_CS_Lab13_RockPaperScissors\obj\Debug\netcoreapp3.1\GC_CS_Lab13_RockPaperScissors.AssemblyInfo.cs
+C:\Users\coronele\source\repos\GC_CS_Lab13_RockPaperScissors\GC_CS_Lab13_RockPaperScissors\obj\Debug\netcoreapp3.1\GC_CS_Lab13_RockPaperScissors.dll
+C:\Users\coronele\source\repos\GC_CS_Lab13_RockPaperScissors\GC_CS_Lab13_RockPaperScissors\obj\Debug\netcoreapp3.1\GC_CS_Lab13_RockPaperScissors.pdb

@@ -7,11 +7,6 @@ namespace GC_CS_Lab13_RockPaperScissors
 {
     class UserPlayer : Player
     {
-        public string GetName()
-        {
-            Name = GetUserInput("Please enter your name:");
-            return Name;
-        }
         public override Roshambo GenerateRoshambo()
         {
             char userSelection = Validator.rpsEvaluate(GetUserInput("Choose [R]ock, [P]aper, or [S]cissors: ").Trim().ToLower());
@@ -28,10 +23,10 @@ namespace GC_CS_Lab13_RockPaperScissors
                     return GenerateRoshambo();
             }
         }
-
-        
-
+        public UserPlayer()
+        {
+            Name = GetUserInput("Please enter your name:");
+            Wins = 0;
+        }
     }
-
-
 }

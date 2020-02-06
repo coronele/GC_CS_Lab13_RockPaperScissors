@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using static GC_CS_Lab13_RockPaperScissors.MyMethods;
 
 namespace GC_CS_Lab13_RockPaperScissors
 {
@@ -12,7 +13,7 @@ namespace GC_CS_Lab13_RockPaperScissors
             
             if (!(char.TryParse(choice, out userChoice)))
             {
-                return rpsEvaluate(choice);
+                return rpsEvaluate(GetUserInput("Please enter 'r','p' or 's'."));
             }
             else
             {
@@ -23,7 +24,7 @@ namespace GC_CS_Lab13_RockPaperScissors
                     case 's':
                         return userChoice;
                 }
-                return rpsEvaluate(choice);
+                return rpsEvaluate(GetUserInput("Please enter 'r','p' or 's'."));
             }
 
         }

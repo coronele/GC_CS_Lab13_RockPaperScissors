@@ -6,11 +6,10 @@ namespace GC_CS_Lab13_RockPaperScissors
 {
     class MuchBetterPlayer : Player
     {
-        
         public override Roshambo GenerateRoshambo()
         {
             var choiceRand = new Random();
-            int selection = choiceRand.Next(0, 3);
+            int selection = choiceRand.Next(1, 4);
 
             switch (selection)
             {
@@ -25,5 +24,10 @@ namespace GC_CS_Lab13_RockPaperScissors
             }
         }
 
+        public MuchBetterPlayer()
+        {
+            Name = "Gallant";
+            Wins = 0;
+        }
     }
 }
